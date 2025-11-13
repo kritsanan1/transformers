@@ -25,7 +25,7 @@ from sklearn.preprocessing import LabelEncoder
 import pandas as pd
 
 from ..config import DATA_CONFIG, AUDIO_CONFIG, STORAGE_CONFIG
-from ..utils.audio import AudioUtils
+from ..utils import AudioUtils
 
 logger = logging.getLogger(__name__)
 

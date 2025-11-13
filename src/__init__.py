@@ -35,16 +35,18 @@ from .config import (
     SECURITY_CONFIG,
 )
 
+# Temporarily comment out imports that might have issues
+# from .models.classification import IsanPinClassifier, IsanPinCNN, IsanPinDataset
+# from .models.musicgen import IsanPinMusicGen
+# from .inference.inference import IsanPinInference
+# from .evaluation.evaluator import IsanPinEvaluator
+# from .web.app import create_gradio_interface, run_web_app
+
+# Only import basic modules for now
 from .data.collection import DataCollector, AudioClassifier
 from .data.preprocessing import AudioPreprocessor, DatasetCreator
-from .models.classification import IsanPinClassifier, IsanPinCNN, IsanPinDataset
-from .models.musicgen import IsanPinMusicGen
-from .inference.inference import IsanPinInference
-from .evaluation.evaluator import IsanPinEvaluator
-from .web.app import create_gradio_interface, run_web_app
-from .utils.audio import AudioUtils
 
-# Main classes for easy import
+# Main classes for easy import (temporarily reduced)
 __all__ = [
     # Configuration
     "MODEL_CONFIG",
@@ -68,24 +70,24 @@ __all__ = [
     "AudioPreprocessor",
     "DatasetCreator",
     
-    # Models and training
-    "IsanPinClassifier",
-    "IsanPinCNN",
-    "IsanPinDataset",
-    "IsanPinMusicGen",
+    # # Models and training (temporarily commented)
+    # "IsanPinClassifier",
+    # "IsanPinCNN", 
+    # "IsanPinDataset",
+    # "IsanPinMusicGen",
     
-    # Inference
-    "IsanPinInference",
+    # # Inference
+    # "IsanPinInference",
     
-    # Evaluation
-    "IsanPinEvaluator",
+    # # Evaluation
+    # "IsanPinEvaluator",
     
-    # Web app
-    "create_gradio_interface",
-    "run_web_app",
+    # # Web app
+    # "create_gradio_interface",
+    # "run_web_app",
     
-    # Utilities
-    "AudioUtils",
+    # # Utilities
+    # "AudioUtils",
 ]
 
 # Version info

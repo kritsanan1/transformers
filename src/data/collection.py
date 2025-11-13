@@ -22,8 +22,7 @@ import torchaudio
 from datetime import datetime
 
 from ..config import DATA_CONFIG, AUDIO_CONFIG, STORAGE_CONFIG, LOGGING_CONFIG
-from ..utils.audio import AudioUtils
-from ..utils.text import TextProcessor
+from ..utils import AudioUtils, TextProcessor
 
 logger = logging.getLogger(__name__)
 
