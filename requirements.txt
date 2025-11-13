@@ -1,0 +1,60 @@
+# Core AI/ML Libraries
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+datasets>=2.12.0
+
+# Audio Processing
+librosa>=0.10.0
+soundfile>=0.12.0
+audiocraft>=1.0.0
+musicgen-trainer>=0.1.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Web Framework
+fastapi>=0.100.0
+uvicorn>=0.22.0
+streamlit>=1.25.0
+gradio>=3.40.0
+
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.11.0
+
+# API & HTTP
+httpx>=0.24.0
+aiofiles>=23.0.0
+
+# Utilities
+pydantic>=2.0.0
+python-multipart>=0.0.6
+jinja2>=3.1.0
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+wandb>=0.15.0
+tensorboard>=2.13.0
+
+# Thai Language Processing
+pythainlp>=4.0.0
+
+# Audio Quality Assessment
+pesq>=0.0.4
+pystoi>=0.3.0
+mir-eval>=0.7
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.4.0
